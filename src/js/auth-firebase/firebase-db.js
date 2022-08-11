@@ -4,10 +4,14 @@ import {
   LocStorageMovies,
   convertDataFromFrbToLs,
 } from '../auth-firebase/locstr-movies';
+import { firebaseConfig } from './firebase';
 
-const URL =
-  'https://filmoteka-project2-default-rtdb.europe-west1.firebasedatabase.app';
-const API = 'AIzaSyB6zHPU06WTT-Wfbp-gtmlww2BBH4EyQx0';
+// const URL =
+//   'https://filmoteka-project2-default-rtdb.europe-west1.firebasedatabase.app';
+// const API = 'AIzaSyB6zHPU06WTT-Wfbp-gtmlww2BBH4EyQx0';
+
+const URL = firebaseConfig.databaseURL;
+const API = firebaseConfig.apiKey;
 
 export async function getDatafromFirebase() {
   const userDtbName = getUserDtbName();

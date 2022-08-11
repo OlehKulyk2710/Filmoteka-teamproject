@@ -20,7 +20,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 //   appId: '1:660298397256:web:554a4c6f7606a778a94a7d',
 // };
 
-const firebaseConfig = {
+export const firebaseConfig = {
   apiKey: 'AIzaSyDioBfMgMuaxJm-nDSd_80WKnU0MWSHthE',
   authDomain: 'filmoteka-d35b0.firebaseapp.com',
   databaseURL:
