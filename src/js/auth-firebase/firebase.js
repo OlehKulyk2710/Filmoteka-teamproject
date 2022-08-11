@@ -9,15 +9,26 @@ import {
 import { checkUserAuthState } from './auth-userstate';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
+// const firebaseConfig = {
+//   apiKey: 'AIzaSyB6zHPU06WTT-Wfbp-gtmlww2BBH4EyQx0',
+//   authDomain: 'filmoteka-project2.firebaseapp.com',
+//   databaseURL:
+//     'https://filmoteka-project2-default-rtdb.europe-west1.firebasedatabase.app',
+//   projectId: 'filmoteka-project2',
+//   storageBucket: 'filmoteka-project2.appspot.com',
+//   messagingSenderId: '660298397256',
+//   appId: '1:660298397256:web:554a4c6f7606a778a94a7d',
+// };
+
 const firebaseConfig = {
-  apiKey: 'AIzaSyB6zHPU06WTT-Wfbp-gtmlww2BBH4EyQx0',
-  authDomain: 'filmoteka-project2.firebaseapp.com',
+  apiKey: 'AIzaSyDioBfMgMuaxJm-nDSd_80WKnU0MWSHthE',
+  authDomain: 'filmoteka-d35b0.firebaseapp.com',
   databaseURL:
-    'https://filmoteka-project2-default-rtdb.europe-west1.firebasedatabase.app',
-  projectId: 'filmoteka-project2',
-  storageBucket: 'filmoteka-project2.appspot.com',
-  messagingSenderId: '660298397256',
-  appId: '1:660298397256:web:554a4c6f7606a778a94a7d',
+    'https://filmoteka-d35b0-default-rtdb.europe-west1.firebasedatabase.app',
+  projectId: 'filmoteka-d35b0',
+  storageBucket: 'filmoteka-d35b0.appspot.com',
+  messagingSenderId: '679078040601',
+  appId: '1:679078040601:web:45af8f5a439dabe2c74688',
 };
 
 // Initialize Firebase

@@ -13,5 +13,5 @@ export const authRefs = {
 export const defaultUserData = {
   name: 'Anonymous',
   email: 'test@test.com',
-  uid: 'USsPfcF0kUZ7u3BIzTca8upTQO03',
+  // uid: 'USsPfcF0kUZ7u3BIzTca8upTQO03',
 };
