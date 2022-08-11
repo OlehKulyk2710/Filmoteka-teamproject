@@ -1,17 +1,18 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import { firebaseConfig } from './firebase';
+
 import { LocStorage } from './auth-locstorage';
 import {
   LocStorageMovies,
   convertDataFromFrbToLs,
 } from '../auth-firebase/locstr-movies';
-import { firebaseConfig } from './firebase';
 
-// const URL =
-//   'https://filmoteka-project2-default-rtdb.europe-west1.firebasedatabase.app';
-// const API = 'AIzaSyB6zHPU06WTT-Wfbp-gtmlww2BBH4EyQx0';
+const URL =
+  'https://filmoteka-d35b0-default-rtdb.europe-west1.firebasedatabase.app';
+const API = 'AIzaSyDioBfMgMuaxJm-nDSd_80WKnU0MWSHthE';
 
-const URL = firebaseConfig.databaseURL;
-const API = firebaseConfig.apiKey;
+// const URL = firebaseConfig.databaseURL;
+// const API = firebaseConfig.apiKey;
 
 export async function getDatafromFirebase() {
   const userDtbName = getUserDtbName();

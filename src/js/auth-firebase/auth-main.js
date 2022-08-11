@@ -1,6 +1,6 @@
+import './firebase';
 import './auth-refs';
 import './auth-locstorage';
-import './firebase';
 import './modal-btns-state';
 
 import {
