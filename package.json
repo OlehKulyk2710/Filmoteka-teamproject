@@ -5,7 +5,7 @@
   "homepage": "https://OlehKulyk2710.github.io/Filmoteka-teamproject",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Filmoteka-team-project/"
+    "build": "parcel build src/*.html --public-url /Filmoteka-teamproject/"
   },
   "repository": {
     "type": "git",
